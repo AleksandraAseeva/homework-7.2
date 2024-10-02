@@ -1,0 +1,3181 @@
+* {
+  margin: 0px;
+}
+
+:root {
+  --yellow-inscriptiom: #fbd784;
+}
+
+html::-webkit-scrollbar {
+  width: 0;
+}
+
+html {
+  font-size: 18px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: url(./images/BG\ 1.jpg) top left/1920px 1900px no-repeat, #0b1d27;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 3.1rem 4rem 3rem 5rem;
+}
+
+input,
+label,
+.div,
+.career,
+.followUs {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.mntn {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 3px;
+  margin-top: 2px;
+}
+
+.ulcenter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 285px;
+  padding: 0;
+  font-weight: 600;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+}
+
+.account p {
+  font-weight: 700;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.account img {
+  margin-bottom: -4px;
+}
+
+.after-nav {
+  display: flex;
+  margin-top: 133px;
+}
+
+.vertical {
+  display: flex;
+  justify-content: space-between;
+  height: 27px;
+  margin-top: 151px;
+  transform: rotate(90deg);
+  font-weight: 700;
+  line-height: 27px;
+  margin-left: -5px;
+}
+
+.vertical img {
+  object-fit: none;
+  margin-left: 15px;
+  margin-right: 11px;
+}
+
+.vertical p {
+  width: 90px;
+}
+
+hr {
+  width: 72px;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.span {
+  display: inline-flex;
+  margin-right: 21px;
+  margin-bottom: 7px;
+  height: 3px;
+  width: 72px;
+  background-color: var(--yellow-inscriptiom);
+}
+
+.appeal {
+  margin-left: 320px;
+  margin-right: 350px;
+}
+
+.are {
+  margin-left: -4px;
+}
+
+.you {
+  margin-left: -17px;
+}
+
+.hiking {
+  margin-bottom: 32px;
+  font-weight: 800;
+  line-height: 27px;
+  letter-spacing: 6px;
+  color: var(--yellow-inscriptiom);
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 88px;
+  line-height: 100px;
+  margin-bottom: 31px;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+}
+
+.arrow img {
+  margin-left: 5px;
+}
+
+.jump {
+  border-right: solid;
+  height: 225px;
+  width: 72px;
+  border-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 0.324) 76%,
+    rgb(255, 255, 255) 24%
+  );
+  border-image-slice: 1;
+  text-align: right;
+  padding-top: 16px;
+  margin-top: 40px;
+  margin-right: 80px;
+}
+
+.jump p {
+  margin: 0 30px 39px 0;
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.first-sec {
+  margin: 735px 10% 0 12%;
+  display: flex;
+  align-items: center;
+}
+
+.first-sec span {
+  margin-right: 16px;
+}
+
+.container1 {
+  padding: 170px 124px 0 140px;
+}
+
+.oh-one {
+  font-size: 240px;
+  font-weight: 700;
+  position: absolute;
+  top: 1420px;
+  left: 240px;
+  color: rgba(41, 61, 69, 0.718);
+}
+
+.getstarted {
+  font-weight: 800;
+  line-height: 27px;
+  letter-spacing: 6px;
+  color: var(--yellow-inscriptiom);
+  position: absolute;
+  top: 1630px;
+  left: 370px;
+}
+
+.question {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  max-width: 500px;
+}
+
+.article {
+  line-height: 32px;
+  font-weight: 700;
+  max-width: 640px;
+  margin-top: 25px;
+}
+
+.arrow1,
+.arroww,
+.arrowww {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  color: var(--yellow-inscriptiom);
+}
+
+#mvng-right {
+  width: 24px;
+  height: 16px;
+  margin-left: 10px;
+}
+
+.second-sec {
+  margin: 194px 11.5% 0 12.5%;
+  display: flex;
+  align-items: center;
+}
+
+.oh-two {
+  font-size: 240px;
+  font-weight: 700;
+  position: absolute;
+  top: 2340px;
+  right: 710px;
+  color: rgba(41, 61, 69, 0.718);
+}
+
+.hikingessentials {
+  font-weight: 800;
+  line-height: 27px;
+  letter-spacing: 6px;
+  color: var(--yellow-inscriptiom);
+  position: absolute;
+  top: 2560px;
+  right: 480px;
+}
+
+.container2 {
+  padding-top: 245px;
+  padding-left: 14.5em;
+}
+
+.second-sec h2,
+.third-sec h2 {
+  font-family: Poppins;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 96px;
+  max-width: 550px;
+  margin-bottom: 30px;
+}
+
+.sub-article-one {
+  line-height: 32px;
+  font-weight: 700;
+  max-width: 640px;
+}
+
+.third-sec {
+  display: flex;
+  align-items: center;
+  margin: 190px 9% 0 19.2%;
+}
+
+.whereyou {
+  font-weight: 800;
+  line-height: 27px;
+  letter-spacing: 6px;
+  color: var(--yellow-inscriptiom);
+  position: absolute;
+  top: 3458px;
+  left: 374px;
+}
+
+.oh-three {
+  font-size: 240px;
+  font-weight: 700;
+  position: absolute;
+  top: 3260px;
+  left: 240px;
+  color: rgba(41, 61, 69, 0.718);
+}
+
+.container3 {
+  padding-top: 175px;
+  padding-right: 125px;
+}
+
+footer {
+  margin: 191px 215px 100px 231px;
+  display: grid;
+  grid-template-columns: 26% 31% 25% 18%;
+}
+
+ul {
+  list-style: none;
+}
+
+.f1 {
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 280px;
+}
+
+.dfg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 130px;
+  width: 320px;
+}
+
+.dfg p {
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.copy {
+  margin-left: 3px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.518);
+}
+
+.f1 h3 {
+  grid-column: 3/4;
+  line-height: 48px;
+}
+
+.f2 {
+  grid-column: 3/4;
+  line-height: 48px;
+  margin-left: 12px;
+}
+
+.f4 {
+  grid-column: 4/5;
+  line-height: 51px;
+  margin-left: 57px;
+}
+
+.f2 li {
+  font-weight: 600;
+}
+
+.f4 li {
+  font-weight: 600;
+  margin-left: -8px;
+}
+
+.more {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--yellow-inscriptiom);
+  margin-bottom: 18px;
+}
+
+.jobs {
+  margin-bottom: -3px;
+}
+
+@media (max-width: 1900px) {
+  .oh-one {
+    top: 1400px;
+  }
+
+  .getstarted {
+    top: 1610px;
+    left: 370px;
+  }
+
+  .oh-two {
+    top: 2300px;
+    right: 600px;
+  }
+
+  .hikingessentials {
+    top: 2500px;
+    right: 480px;
+  }
+
+  .whereyou {
+    top: 3400px;
+  }
+
+  .oh-three {
+    top: 3200px;
+  }
+}
+
+@media (max-width: 1800px) {
+  .oh-one {
+    top: 1400px;
+  }
+
+  .getstarted {
+    top: 1610px;
+    left: 370px;
+  }
+
+  .oh-two {
+    right: 500px;
+  }
+
+  .container2 {
+    padding-left: 8em;
+  }
+
+  .whereyou {
+    top: 3350px;
+  }
+
+  .oh-three {
+    top: 3160px;
+    left: 260px;
+  }
+}
+
+@media (max-width: 1656px) {
+  .oh-one {
+    top: 1460px;
+  }
+
+  .getstarted {
+    top: 1680px;
+  }
+
+  .oh-two {
+    top: 2450px;
+  }
+
+  .hikingessentials {
+    top: 2650px;
+    right: 350px;
+  }
+
+  .container2 {
+    padding-left: 6.85em;
+  }
+
+  .whereyou {
+    top: 3490px;
+  }
+
+  .oh-three {
+    top: 3300px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .oh-two {
+    top: 2430px;
+    right: 350px;
+  }
+
+  .hikingessentials {
+    top: 2630px;
+  }
+
+  .whereyou {
+    top: 3630px;
+    left: 350px;
+  }
+
+  .oh-three {
+    top: 3430px;
+  }
+}
+
+@media (max-width: 1536px) {
+  body {
+    background: url(./images/BG\ 1.png) top left/1536px 1682px no-repeat,
+      #0b1d27;
+  }
+
+  nav {
+    padding: 3.2rem 4.5rem 3.2rem 4.5rem;
+  }
+
+  .vertical {
+    margin-top: 146px;
+  }
+
+  .appeal {
+    margin-left: 112px;
+    margin-right: 190px;
+    margin-top: 12px;
+  }
+
+  h1 {
+    margin-bottom: 32px;
+  }
+
+  .jump {
+    margin-right: 50px;
+    margin-top: 34px;
+  }
+
+  .first-sec {
+    margin: 719px 140px 0 70px;
+  }
+
+  .are {
+    margin-left: 0px;
+  }
+
+  .oh-one {
+    left: 138px;
+    top: 1420px;
+  }
+
+  .getstarted {
+    top: 1647px;
+    left: 210px;
+  }
+
+  .first-sec h2 {
+    font-family: Poppins;
+    font-weight: 600;
+  }
+
+  .container1 {
+    padding: 180px 60px 0 140px;
+  }
+
+  .article {
+    margin-top: 25px;
+  }
+
+  .arrow1,
+  .arroww,
+  .arrowww {
+    margin-top: 28px;
+  }
+
+  .second-sec {
+    margin: 190px 100px 0 137px;
+  }
+
+  .oh-two {
+    top: 2365px;
+    right: 538px;
+  }
+
+  .hikingessentials {
+    top: 2580px;
+    right: 355px;
+  }
+
+  .container2 {
+    padding: 150px 0 0 185px;
+  }
+
+  .second-sec h2,
+  .third-sec h2 {
+    margin-bottom: 28px;
+  }
+
+  .third-sec {
+    margin: 193px 140px 0 209px;
+  }
+
+  .oh-three {
+    top: 3350px;
+    left: 138px;
+  }
+
+  .whereyou {
+    top: 3578px;
+    left: 210px;
+  }
+
+  .container3 {
+    padding: 184px 79px 0 0;
+  }
+
+  footer {
+    margin: 192px 215px 100px 141px;
+    grid-template-columns: 33% 15% 32% 23%;
+  }
+
+  .f2 {
+    line-height: 42px;
+  }
+}
+
+@media (max-width: 1460px) {
+  .oh-two {
+    top: 2320px;
+    right: 300px;
+  }
+
+  .hikingessentials {
+    top: 2520px;
+    right: 200px;
+  }
+
+  .oh-three {
+    top: 3300px;
+    left: 138px;
+  }
+
+  .whereyou {
+    top: 3500px;
+    left: 210px;
+  }
+}
+
+@media (max-width: 1372px) {
+  .oh-one {
+    left: 138px;
+    top: 1360px;
+  }
+
+  .getstarted {
+    top: 1560px;
+    left: 210px;
+  }
+}
+
+@media (max-width: 1356px) {
+  .first-sec {
+    margin: 722px 100px 0 20px;
+  }
+
+  .oh-one {
+    top: 1370px;
+  }
+
+  .getstarted {
+    top: 1560px;
+    left: 131px;
+  }
+
+  .oh-two {
+    top: 2300px;
+    right: 300px;
+  }
+
+  .hikingessentials {
+    top: 2500px;
+    right: 200px;
+  }
+
+  .container2 {
+    padding-top: 120px;
+    padding-left: 80px;
+  }
+
+  .oh-three {
+    top: 3270px;
+    left: 138px;
+  }
+
+  .whereyou {
+    top: 3460px;
+    left: 180px;
+  }
+}
+
+@media (max-width: 1265px) {
+  .appeal {
+    margin-left: 35px;
+    margin-right: 30px;
+  }
+
+  .first-sec {
+    margin-top: 565px;
+    margin: 565px 10% 0 10%;
+    flex-direction: column;
+  }
+
+  .container1 {
+    padding: 245px 100px 0 100px;
+  }
+
+  .oh-one {
+    top: 1195px;
+    left: 132px;
+  }
+
+  .getstarted {
+    top: 1392px;
+    left: 131px;
+  }
+
+  .frst-pic {
+    margin-top: 63px;
+  }
+
+  .article {
+    margin-top: 30px;
+    max-width: 100%;
+  }
+
+  .second-sec {
+    margin: 255px 143px 0 137px;
+    flex-direction: column;
+  }
+
+  .oh-two {
+    top: 3125px;
+    right: 500px;
+  }
+
+  .hikingessentials {
+    top: 3318px;
+    right: 334px;
+  }
+
+  .container2 {
+    padding-left: 100px;
+    text-align: right;
+  }
+
+  .second-sec h2 {
+    margin-left: 90px;
+    margin-bottom: 10px;
+  }
+
+  .scnd-pic {
+    margin-top: 63px;
+  }
+
+  .third-sec {
+    margin: 191px 140px 0 118px;
+    flex-direction: column;
+  }
+
+  .container3 {
+    padding-top: 184px;
+    padding-left: 120px;
+  }
+
+  .oh-three {
+    top: 4990px;
+    left: 130px;
+  }
+
+  .whereyou {
+    top: 5193px;
+    left: 120px;
+  }
+
+  .thrd-pic {
+    margin-top: 63px;
+    margin-left: 21px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body {
+    background: url(./images/BG\ 1024.png) top left/1024px 1443px no-repeat,
+      #0b1d27;
+  }
+
+  nav {
+    padding: 56px 4rem 2.8rem 3.4rem;
+  }
+
+  .mntn {
+    margin-bottom: 10px;
+  }
+
+  .ulcenter {
+    width: 306px;
+    font-weight: 700;
+  }
+
+  .aboutUs {
+    margin-left: -7px;
+  }
+
+  .vertical {
+    margin-top: 144px;
+    margin-left: -3px;
+  }
+
+  .appeal {
+    margin-left: 26px;
+    margin-right: 30px;
+  }
+
+  .hiking {
+    margin-bottom: 30px;
+    width: 350px;
+  }
+
+  h1 {
+    font-weight: 600;
+    font-size: 60px;
+    font-size: 3.32rem;
+    max-width: 660px;
+    margin-bottom: 31px;
+  }
+
+  .jump {
+    margin-top: 33px;
+  }
+
+  .jump p {
+    margin: 0 10px 40px 0;
+    font-weight: 700;
+    line-height: 27px;
+  }
+
+  .arrow {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+  }
+
+  .oh-one {
+    top: 1195px;
+    left: 132px;
+  }
+
+  .getstarted {
+    top: 1392px;
+    left: 131px;
+  }
+
+  .first-sec {
+    margin: 577px 0px 0 0px;
+    flex-direction: column;
+  }
+
+  .container1 {
+    padding: 245px 124px 0 70px;
+  }
+
+  .article {
+    margin-top: 30px;
+    max-width: 700px;
+  }
+
+  .arrow1,
+  .arroww,
+  .arrowww {
+    margin-top: 27px;
+  }
+
+  .second-sec {
+    margin: 285px 0 0 0;
+  }
+
+  .oh-two {
+    top: 3125px;
+    right: 598px;
+  }
+
+  .hikingessentials {
+    top: 3318px;
+    right: 334px;
+  }
+
+  .second-sec span {
+    width: 124px;
+    margin-right: 40px;
+  }
+
+  .container2 {
+    padding: 128px 0 0 110px;
+    text-align: right;
+  }
+
+  .second-sec h2 {
+    margin: 0 0 8px 80px;
+  }
+
+  .sub-article-one {
+    margin-left: 0px;
+    max-width: 630px;
+  }
+
+  .sub-article-two,
+  .arroww {
+    margin-left: 0px;
+  }
+
+  .arroww #mvng-right {
+    width: 30px;
+    height: 16px;
+    margin-left: 30px;
+  }
+
+  .third-sec {
+    margin: 189px 0px 0 0;
+  }
+
+  .third-sec {
+    max-width: 100%;
+  }
+
+  .container3 {
+    padding-left: 0px;
+  }
+
+  .oh-three {
+    top: 4990px;
+    left: 130px;
+  }
+
+  .whereyou {
+    top: 5193px;
+    left: 120px;
+  }
+
+  .sub-article {
+    margin-right: 70px;
+    max-width: 640px;
+  }
+
+  footer {
+    margin: 147px 40px 100px 31px;
+    grid-template-columns: 35% 9% 30% 30%;
+  }
+
+  .dfg p {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .copy {
+    font-size: 16px;
+    line-height: 32px;
+  }
+
+  .f1 {
+    height: 307px;
+  }
+
+  .f1 p {
+    margin-right: -10px;
+  }
+
+  .f2 li {
+    font-size: 16px;
+    line-height: 50px;
+    margin-left: 3px;
+  }
+
+  .f4 li {
+    font-size: 16px;
+    line-height: 47px;
+    margin-left: -25px;
+  }
+
+  .f2 .more,
+  .f4 .more {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 17px;
+  }
+}
+
+@media (max-width: 1012px) {
+  .appeal {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  h1 {
+    font-size: 54px;
+  }
+
+  .oh-two {
+    top: 3120px;
+    right: 300px;
+  }
+
+  .hikingessentials {
+    top: 3320px;
+    right: 134px;
+  }
+
+  .oh-three {
+    top: 5000px;
+  }
+
+  .whereyou {
+    top: 5200px;
+  }
+}
+
+@media (max-width: 887px) {
+  .oh-one {
+    top: 1250px;
+  }
+
+  .getstarted {
+    top: 1450px;
+  }
+
+  .oh-two {
+    top: 3140px;
+  }
+
+  .hikingessentials {
+    top: 3340px;
+  }
+
+  .oh-three {
+    top: 4900px;
+  }
+
+  .whereyou {
+    top: 5100px;
+  }
+
+  .first-sec #one {
+    max-width: 100%;
+    height: auto;
+    width: 95%;
+    height: 900px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .frst-pic {
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 63px;
+  }
+
+  .scnd-pic img {
+    max-width: 100%;
+    height: auto;
+    width: 95%;
+    height: 900px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .scnd-pic {
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 63px;
+  }
+
+  .thrd-pic img {
+    max-width: 100%;
+    height: auto;
+    width: 95%;
+    height: 900px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .thrd-pic {
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 63px;
+  }
+}
+
+@media (max-width: 880px) {
+  .container1 {
+    padding: 245px 70px 0 70px;
+  }
+
+  .container1 h2 {
+    max-width: 860px;
+  }
+
+  .article {
+    margin-top: 30px;
+    max-width: 860px;
+  }
+
+  .second-sec {
+    display: flex;
+    align-items: center;
+    margin: 150px 1px 0 1px;
+    flex-direction: column;
+  }
+
+  .container2 {
+    padding: 128px 70px 0 70px;
+    text-align: right;
+  }
+
+  .second-sec h2 {
+    margin-left: 0px;
+    max-width: 880px;
+    margin-bottom: 10px;
+  }
+
+  .sub-article-one,
+  .sub-article-two {
+    max-width: 860px;
+    margin-left: 0px;
+  }
+
+  .oh-two {
+    top: 2980px;
+    right: 300px;
+  }
+
+  .hikingessentials {
+    top: 3180px;
+    right: 134px;
+  }
+
+  .oh-three {
+    top: 4680px;
+  }
+
+  .whereyou {
+    top: 4880px;
+  }
+
+  .third-sec {
+    margin: 130px 0px 0 0;
+    flex-direction: column;
+  }
+
+  .sub-article {
+    margin-right: 0px;
+  }
+
+  .container3 {
+    padding-left: 70px;
+  }
+}
+
+@media (max-width: 768px) {
+  .first-sec #one {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .scnd-pic img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+  }
+
+  .thrd-pic img {
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    background: url(./images/BG\ 768.png) top left/768px 1443px no-repeat,
+      #0b1d27;
+  }
+
+  nav {
+    display: block;
+    padding: 0;
+  }
+
+  a {
+    color: #354147;
+  }
+
+  .header {
+    background: transparent;
+  }
+
+  .header ul {
+    list-style: none;
+    overflow: hidden;
+  }
+
+  .ulcenter {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    font-weight: 600;
+  }
+
+  .career {
+    display: block;
+    margin-left: 140px;
+  }
+
+  .account {
+    display: none;
+  }
+
+  .header li {
+    margin-top: 0px;
+  }
+
+  .header li a {
+    display: block;
+    padding: 5px 0px 65px 8vw;
+    margin: 0;
+    color: #354147;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+  }
+
+  .aboutUs {
+    margin-left: -1.6vw;
+    margin-right: -1.5vw;
+  }
+
+  .header li:last-child {
+    margin-left: 18.4vw;
+  }
+
+  .header .logo {
+    display: block;
+    float: left;
+    padding: 54px 60px;
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 3px;
+    line-height: 42.66px;
+    margin-bottom: 0px;
+    text-decoration: none;
+  }
+
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height 0s ease-out;
+    display: flex;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .career img {
+    margin-right: 6px;
+    margin-bottom: -7px;
+  }
+
+  .career a {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 25.5px;
+    font-family: Poppins;
+  }
+
+  .div {
+    display: block;
+    background-color: rgba(255, 255, 255, 0);
+    top: 0;
+    width: 100%;
+    height: 166px;
+    z-index: -2;
+  }
+
+  .header .menu-icon {
+    cursor: pointer;
+    display: block;
+    float: right;
+    padding: 28px 37px;
+    position: relative;
+    user-select: none;
+  }
+
+  .header .menu-icon .navicon {
+    background: white;
+    display: block;
+    height: 3px;
+    position: relative;
+    transition: background 0.2s ease-out;
+    width: 32px;
+    margin-top: 53px;
+    margin-right: 34px;
+    border-radius: 2px;
+  }
+
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    border-radius: 2px;
+    background: white;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all 0.2s ease-out;
+    width: 100%;
+  }
+
+  .header .menu-icon .navicon:before {
+    top: 11px;
+  }
+
+  .header .menu-icon .navicon:after {
+    top: -11px;
+  }
+
+  .header .menu-btn {
+    display: none;
+  }
+
+  .header .menu-btn:checked ~ .logo {
+    color: #000000;
+  }
+
+  .header .menu-btn:checked ~ .div {
+    background-color: rgb(255, 255, 255);
+  }
+
+  .header .menu-btn:checked ~ .menu {
+    max-height: 240px;
+    position: absolute;
+  }
+
+  .header .menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+
+  .header .menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+    background-color: black;
+    border-radius: 0px;
+    height: 3.5px;
+    width: 34px;
+  }
+
+  .header .menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+    background-color: black;
+    border-radius: 0px;
+    height: 3.5px;
+    width: 34px;
+  }
+
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+  .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+    top: 0;
+  }
+
+  .after-nav {
+    margin-top: 87px;
+  }
+
+  .appeal {
+    margin-left: -35px;
+  }
+
+  .span {
+    margin-right: 15px;
+    height: 1px;
+  }
+
+  .hiking {
+    font-weight: 800;
+    letter-spacing: 6px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 32px;
+  }
+
+  .vertical {
+    height: 27px;
+    margin-top: 166px;
+    margin-left: 1px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .vertical img {
+    margin-left: 14px;
+    margin-top: 3px;
+    margin-right: 0px;
+  }
+
+  .vertical p {
+    width: 78px;
+  }
+
+  .vertical a {
+    color: white;
+  }
+
+  h1 {
+    margin-bottom: 28px;
+    font-size: 44px;
+    line-height: 100px;
+  }
+
+  .scroll {
+    font-size: 16px;
+  }
+
+  .arrow img {
+    margin-left: 11px;
+    margin-bottom: 3px;
+    width: 12px;
+    height: 21px;
+  }
+
+  .jump {
+    border-right: solid 3.5px;
+    border-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.324) 75%,
+      rgb(255, 255, 255) 25%
+    );
+    border-image-slice: 1;
+    margin-top: 73px;
+    margin-right: 48px;
+  }
+
+  .jump p {
+    margin: 0 14px 40px 0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .oh-one {
+    top: 1266px;
+    left: 66px;
+    font-size: 180px;
+    line-height: 240px;
+  }
+
+  .getstarted {
+    font-size: 16px;
+    line-height: 24px;
+    top: 1426px;
+    left: 66px;
+  }
+
+  .first-sec {
+    margin: 655px 0px 0 0px;
+    flex-direction: column;
+  }
+
+  .container1 {
+    padding: 245px 60px 0 66px;
+    max-width: 100%;
+  }
+
+  .question {
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    width: 555px;
+    height: 120px;
+  }
+
+  .hkr {
+    margin-left: 10px;
+  }
+
+  .are {
+    margin-left: -5px;
+  }
+
+  .you {
+    margin-left: 0px;
+  }
+
+  .article {
+    line-height: 32px;
+    margin-top: 29px;
+    font-size: 16px;
+  }
+
+  .readmore {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  #mvng-right,
+  .arroww #mvng-right {
+    width: 23px;
+    height: 15px;
+    margin-left: 18px;
+  }
+
+  .frst-pic {
+    margin-top: 45px;
+  }
+
+  .oh-two {
+    font-size: 180px;
+    line-height: 240px;
+    top: 2875px;
+    right: 481px;
+  }
+
+  .hikingessentials {
+    top: 3029px;
+    right: 347px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .second-sec {
+    margin: 105px 0px 0 0px;
+  }
+
+  .container2 {
+    padding: 132px 67px 0 55px;
+  }
+
+  .container2 .readmore {
+    margin-left: 10px;
+  }
+
+  .sub-article-one,
+  .sub-article-two {
+    margin-left: 10px;
+  }
+
+  .second-sec span,
+  .third-sec span {
+    width: 72px;
+    margin-right: 21px;
+  }
+
+  .second-sec h2,
+  .third-sec h2 {
+    margin-bottom: 27px;
+    font-size: 40px;
+    line-height: 60px;
+    width: 100%;
+    height: 60px;
+  }
+
+  .scnd-pic {
+    margin-top: 58px;
+  }
+
+  .oh-three {
+    font-size: 180px;
+    line-height: 240px;
+    top: 4450px;
+    left: 64px;
+  }
+
+  .whereyou {
+    top: 4603.5px;
+    left: 65px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .third-sec {
+    margin: 68px 0px 0 -6px;
+  }
+
+  .third-sec h2 {
+    margin-bottom: 87px;
+  }
+
+  .sub-article {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  .thrd-pic {
+    margin-top: 46px;
+  }
+
+  footer {
+    margin: 87px 40px 60px 29px;
+    grid-template-columns: 41% 3% 31% 26%;
+  }
+
+  .dfg p {
+    width: 240px;
+  }
+
+  .mntn {
+    letter-spacing: 0.01em;
+    margin-bottom: 16px;
+  }
+
+  .copy {
+    font-size: 14px;
+  }
+
+  .f1 {
+    height: 310px;
+    margin-top: 4px;
+  }
+
+  .f2 {
+    padding-left: 4px;
+  }
+
+  .f4 {
+    padding: 0px;
+  }
+
+  .f2 li {
+    font-size: 16px;
+    line-height: 41px;
+    margin-left: 3px;
+  }
+
+  .f4 li {
+    font-size: 16px;
+    line-height: 44px;
+    margin-left: -25px;
+  }
+
+  .f2 .more {
+    margin-bottom: 22px;
+  }
+
+  .f2 .more,
+  .f4 .more {
+    margin-top: 8px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 760px) {
+    .question {
+        width: 100%;
+      }
+}
+
+@media (max-width: 700px) {
+  .header li:last-child {
+    margin-left: 12vw;
+  }
+
+  h1 {
+    font-size: 38px;
+    line-height: 100px;
+  }
+
+  .oh-two {
+    right: 400px;
+    top: 2850px;
+  }
+
+  .oh-three {
+    top: 4410px;
+  }
+
+  .whereyou {
+    top: 4560px;
+  }
+
+  .hikingessentials {
+    right: 270px;
+    top: 3000px;
+  }
+
+  .container2 {
+    padding: 125px 0px 0 0px;
+  }
+
+  .sub-article-one,
+  .sub-article-two {
+    margin-left: 40px;
+    margin-right: 60px;
+  }
+
+  .arroww {
+    margin-left: 60px;
+  }
+
+  .career {
+    display: block;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 670px) {
+  .oh-three {
+    top: 4350px;
+  }
+
+  .whereyou {
+    top: 4490px;
+  }
+}
+
+@media (max-width: 650px) {
+  .oh-two {
+    top: 2800px;
+  }
+
+  .oh-three {
+    top: 4300px;
+  }
+
+  .whereyou {
+    top: 4430px;
+  }
+
+  .hikingessentials {
+    top: 2930px;
+  }
+}
+
+@media (max-width: 631px) {
+  h1 {
+    font-size: 35px;
+    line-height: 80px;
+  }
+
+  .arroww {
+    margin-left: 80px;
+  }
+
+  .second-sec h2 {
+    width: 600px;
+    height: 100px;
+  }
+
+  .oh-two {
+    top: 2770px;
+    right: 340px;
+  }
+
+  .hikingessentials {
+    right: 210px;
+    top: 2900px;
+  }
+
+  .oh-three {
+    top: 4300px;
+    left: 64px;
+  }
+
+  .whereyou {
+    top: 4430px;
+    left: 65px;
+  }
+}
+
+@media (max-width: 620px) {
+  .oh-three {
+    top: 4250px;
+  }
+
+  .whereyou {
+    top: 4380px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header li:last-child {
+    margin-left: 5vw;
+  }
+
+  .second-sec h2 {
+    max-width: 500px;
+    text-align: right;
+  }
+
+  .jump {
+    margin-right: 30px;
+  }
+
+  .vertical {
+    margin-left: -30px;
+  }
+
+  .oh-two {
+    top: 2740px;
+    right: 300px;
+  }
+
+  .hikingessentials {
+    right: 160px;
+    top: 2880px;
+  }
+
+  .readmore {
+    margin-left: 50px;
+  }
+
+  .oh-three {
+    top: 4250px;
+  }
+
+  .whereyou {
+    top: 4380px;
+  }
+
+  .dfg p {
+    width: 200px;
+  }
+}
+
+@media (max-width: 585px) {
+  .oh-three {
+    top: 4200px;
+  }
+
+  .whereyou {
+    top: 4330px;
+  }
+}
+
+@media (max-width: 570px) {
+  .oh-two {
+    top: 2700px;
+  }
+
+  .hikingessentials {
+    top: 2840px;
+  }
+
+  .oh-three {
+    top: 4160px;
+  }
+
+  .whereyou {
+    top: 4290px;
+  }
+}
+
+@media (max-width: 550px) {
+  .header li:last-child {
+    margin-left: 3.5vw;
+  }
+
+  .vertical {
+    margin-left: -40px;
+  }
+
+  h1 {
+    font-size: 33px;
+    line-height: 80px;
+  }
+
+  .career a {
+    font-size: 16px;
+  }
+
+  .header li a {
+    padding-left: 8vw;
+    font-size: 16px;
+  }
+
+  .oh-two {
+    top: 2660px;
+  }
+
+  .hikingessentials {
+    top: 2800px;
+  }
+
+  .oh-three {
+    top: 4110px;
+  }
+
+  .whereyou {
+    top: 4240px;
+  }
+}
+
+@media (max-width: 528px) {
+  .readmore {
+    margin-left: 80px;
+  }
+
+  .oh-two {
+    top: 2690px;
+    right: 220px;
+  }
+
+  .hikingessentials {
+    right: 90px;
+    top: 2830px;
+  }
+
+  .oh-three {
+    top: 4100px;
+  }
+
+  .whereyou {
+    top: 4230px;
+    left: 60px;
+  }
+}
+
+@media (max-width: 500px) {
+  .after-nav {
+    display: flex;
+    margin-top: 49px;
+  }
+
+  .appeal span {
+    height: 2px;
+  }
+
+  .vertical {
+    position: absolute;
+    margin-top: -47px;
+    transform: rotate(0deg);
+    margin-left: 314px;
+  }
+
+  .appeal {
+    margin-left: 20px;
+  }
+
+  h1 {
+    font-size: 44px;
+    line-height: 70px;
+    margin-bottom: 40px;
+  }
+
+  .jump {
+    border-right: solid 3px;
+    margin-top: 90px;
+    margin-right: 28px;
+  }
+
+  .readmore {
+    margin-left: 100px;
+  }
+
+  .whereyou {
+    top: 4370px;
+  }
+
+  .container2 {
+    padding-left: 10px;
+    padding-right: 0px;
+  }
+
+  .container3 {
+    padding-left: 20px;
+    padding-right: 0px;
+  }
+
+  .container3 h2,
+  .container2 h2 {
+    width: 450px;
+  }
+
+  .sub-article {
+    padding-left: 0px;
+    width: 460px;
+  }
+
+  .arrowww {
+    padding-left: 0px;
+  }
+
+  .dfg p {
+    width: 180px;
+  }
+
+  .career {
+    z-index: 1;
+  }
+
+  .oh-two {
+    top: 2640px;
+  }
+
+  .hikingessentials {
+    top: 2780px;
+  }
+
+  .oh-three {
+    top: 4040px;
+  }
+
+  .whereyou {
+    top: 4180px;
+    left: 20px;
+  }
+}
+
+/* с макетом с открытым меню почти все сходится, макет с бургер меню отличается от него и от того не так точно совпадает с сайтом  */
+@media (max-width: 480px) {
+  body {
+    margin: 0;
+    background: url(./images/BG\ 480.png) top left/480px 848px no-repeat,
+      #0b1d27;
+  }
+
+  .first-sec #one {
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .frst-pic {
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .header .logo {
+    padding: 58px 20px;
+    letter-spacing: 4.2px;
+    line-height: 42.66px;
+    font-size: 40px;
+  }
+
+  .header .menu-icon {
+    padding: 25px 0px;
+  }
+
+  .header .menu-icon .navicon {
+    height: 3.5px;
+    margin-right: 24px;
+    border-radius: 0px;
+  }
+
+  .header .menu-icon .navicon:before,
+  .header .menu-icon .navicon:after {
+    border-radius: 0px;
+    height: 3px;
+  }
+
+  .header .menu-icon .navicon:before {
+    top: 11.5px;
+  }
+
+  .header .menu-icon .navicon:after {
+    top: -11px;
+    height: 2.5px;
+  }
+
+  .header .menu-btn:checked ~ .logo {
+    padding: 54px 38px;
+    font-size: 32px;
+    letter-spacing: 3px;
+  }
+
+  .header .menu-btn:checked ~ .menu-icon {
+    padding: 28px 21px;
+  }
+
+  .oh-one {
+    top: 663px;
+    left: 20px;
+    font-size: 140px;
+    line-height: 150px;
+    color: rgba(255, 255, 255, 0.096);
+  }
+
+  .first-sec .span {
+    margin-bottom: 4px;
+    height: 1px;
+  }
+
+  .getstarted {
+    top: 749.5px;
+    left: 19px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .first-sec {
+    margin: 11px 0px 0 0px;
+  }
+
+  .container1 {
+    padding: 227.5px 0px 0 0px;
+  }
+
+  .frst-pic {
+    margin-top: 46px;
+  }
+
+  .question {
+    width: 455px;
+    height: 70px;
+    font-size: 30px;
+    line-height: 45px;
+    margin-left: 20px;
+  }
+
+  .first-sec h2 {
+    letter-spacing: 0px;
+    word-spacing: 0.5px;
+  }
+
+  .hkr {
+    margin-left: 5px;
+  }
+
+  .are {
+    margin-left: -8px;
+  }
+
+  .you {
+    margin-left: -17px;
+  }
+
+  .article {
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 19px;
+    padding-right: 18px;
+    margin: 0;
+  }
+
+  #mvng-right,
+  .arroww #mvng-right {
+    width: 21px;
+    height: 15px;
+    margin-left: 13px;
+  }
+
+  .readmore {
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 20px;
+  }
+
+  .second-sec h2,
+  .third-sec h2 {
+    font-size: 30px;
+    line-height: 45px;
+    max-width: 450px;
+  }
+
+  .oh-two {
+    top: 1705px;
+    right: 288px;
+    font-size: 140px;
+    line-height: 150px;
+  }
+
+  .hikingessentials {
+    top: 1795px;
+    right: 130px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .second-sec {
+    margin: 20.5px 0px 0 1px;
+  }
+
+  .second-sec h2 {
+    margin: 0;
+    padding-left: 56px;
+    width: 400px;
+    height: 117px;
+    text-align: right;
+  }
+
+  .second-sec .span,
+  .third-sec .span {
+    margin-bottom: 5px;
+  }
+
+  .container2 {
+    padding: 132px 0px 0px 0px;
+  }
+
+  .container3 {
+    padding-top: 89px;
+    padding-right: 0px;
+    padding-left: 6px;
+  }
+
+  .oh-three {
+    font-size: 140px;
+    line-height: 150px;
+    top: 2770px;
+    left: 20px;
+  }
+
+  .whereyou {
+    top: 2840px;
+    left: 20px;
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .sub-article-one,
+  .sub-article-two {
+    margin-top: 25px;
+    padding-left: 10px;
+    padding-right: 20px;
+    margin-left: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: right;
+    margin: 0;
+  }
+
+  .sub-article-two {
+    margin-top: 0;
+    padding-left: 20px;
+  }
+
+  .arroww {
+    margin-left: 10px;
+  }
+
+  .arroww .readmore {
+    padding-left: 0px;
+    margin-top: 0px;
+  }
+
+  .scnd-pic {
+    margin-top: 22px;
+  }
+
+  .container3 h2 {
+    margin-bottom: 56px;
+    padding-left: 0px;
+  }
+
+  .sub-article {
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 20px;
+    width: 440px;
+  }
+
+  .arrowww {
+    padding-left: 0px;
+  }
+
+  .thrd-pic {
+    margin-top: 23px;
+  }
+
+  footer {
+    margin: 110px 40px 60px 15px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dfg p {
+    width: 400px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 32px;
+  }
+
+  .dfg {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90px;
+  }
+
+  .f1 {
+    height: 110px;
+    margin-left: 5px;
+  }
+
+  .copy {
+    position: absolute;
+    top: 4425px;
+    left: 16px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .f2,
+  .f4 {
+    margin: 0;
+  }
+
+  .f2 .more,
+  .f4 .more {
+    font-size: 20px;
+    line-height: 33px;
+    margin-bottom: 0px;
+  }
+
+  .f2 li {
+    margin-left: 0px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 35px;
+  }
+
+  .f4 {
+    margin-left: 5px;
+    margin-top: 23px;
+  }
+
+  .f4 li {
+    margin-left: 0px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+
+  #mvng-right {
+    margin-bottom: -2px;
+  }
+
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height 0s ease-out;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr+3px;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .header li a {
+    padding-top: 7px;
+    padding-bottom: 9px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .equipment,
+  .blog {
+    grid-column: 1/2;
+  }
+
+  .aboutUs {
+    grid-column: 1/2;
+    padding-left: 6.5px;
+  }
+
+  .career {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    padding-left: 35px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 465px) {
+  .vertical {
+    margin-left: 280px;
+  }
+
+  .question {
+    width: 420px;
+    height: 70px;
+    font-size: 28px;
+  }
+
+  .second-sec h2,
+  .third-sec h2 {
+    font-size: 28px;
+  }
+
+  .oh-two {
+    top: 1620px;
+    right: 245px;
+  }
+
+  .hikingessentials {
+    top: 1700px;
+    right: 80px;
+  }
+
+  .oh-three {
+    top: 2680px;
+    left: 20px;
+  }
+
+  .whereyou {
+    top: 2760px;
+    left: 20px;
+  }
+
+  .second-sec h2 {
+    padding-left: 40px;
+    padding-right: 30px;
+  }
+
+  .sub-article-one,
+  .sub-article-two {
+    padding-left: 20px;
+    padding-right: 30px;
+  }
+
+  .arroww {
+    margin-left: 20px;
+  }
+
+  .sub-article {
+    font-size: 14px;
+    padding-left: 40px;
+    width: 420px;
+  }
+
+  .container3 h2 {
+    padding-left: 20px;
+    width: 420px;
+  }
+
+  .arrowww {
+    padding-left: 20px;
+  }
+
+  .first-sec #one {
+    max-width: 100%;
+    height: auto;
+    width: 95%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .frst-pic {
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+}
+
+@media (max-width: 440px) {
+  .vertical {
+    margin-left: 240px;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 70px;
+    margin-bottom: 40px;
+    width: 300px;
+  }
+
+  .appeal {
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+
+  .hiking {
+    width: 305px;
+  }
+
+  .jump {
+    margin-top: 140px;
+    margin-right: 20px;
+  }
+
+  .container1 {
+    padding: 200px 0px 0 0px;
+  }
+
+  .question {
+    width: 380px;
+    margin-bottom: 20px;
+  }
+
+  .you {
+    margin-left: 0px;
+  }
+
+  .oh-two {
+    top: 1700px;
+    right: 210px;
+  }
+
+  .hikingessentials {
+    top: 1780px;
+    right: 50px;
+  }
+
+  .second-sec h2 {
+    padding-left: 10px;
+    padding-right: 30px;
+    width: 380px;
+  }
+
+  .sub-article-one,
+  .sub-article-two {
+    padding-left: 25px;
+    padding-right: 10px;
+    width: 360px;
+  }
+
+  .oh-three {
+    top: 2770px;
+    left: 20px;
+  }
+
+  .whereyou {
+    top: 2850px;
+    left: 15px;
+    letter-spacing: 4.5px;
+  }
+
+  .sub-article {
+    font-size: 14px;
+    padding-left: 40px;
+    width: 360px;
+  }
+
+  .container3 h2 {
+    padding-left: 20px;
+    width: 380px;
+  }
+
+  footer {
+    margin: 80px 40px 60px 15px;
+  }
+
+  .dfg p {
+    font-size: 10.5px;
+  }
+
+  .copy {
+    top: 4490px;
+    left: 16px;
+  }
+}
+
+@media (max-width: 430px) {
+  .oh-two {
+    top: 1680px;
+  }
+
+  .hikingessentials {
+    top: 1760px;
+  }
+
+  .oh-three {
+    top: 2750px;
+  }
+
+  .whereyou {
+    top: 2830px;
+  }
+}
+
+@media (max-width: 420px) {
+  .oh-three {
+    top: 2720px;
+  }
+
+  .whereyou {
+    top: 2800px;
+  }
+}
+
+@media (max-width: 420px) {
+  .oh-two {
+    top: 1660px;
+  }
+
+  .hikingessentials {
+    top: 1740px;
+  }
+
+  .oh-three {
+    top: 2700px;
+  }
+
+  .whereyou {
+    top: 2780px;
+  }
+}
+
+@media (max-width: 400px) {
+  .vertical {
+    margin-left: 220px;
+  }
+
+  h1 {
+    font-size: 38px;
+    width: 285px;
+  }
+
+  .appeal {
+    margin-left: 15px;
+  }
+
+  .appeal .span {
+    width: 54px;
+  }
+
+  .hiking {
+    width: 287px;
+  }
+
+  .oh-three {
+    top: 2680px;
+  }
+
+  .whereyou {
+    top: 2760px;
+  }
+
+  .third-sec .span {
+    width: 62px;
+    margin-right: 10px;
+  }
+
+  .sub-article {
+    font-size: 14px;
+    padding-left: 40px;
+    width: 340px;
+  }
+}
+
+@media (max-width: 390px) {
+  .oh-two {
+    top: 1640px;
+  }
+
+  .hikingessentials {
+    top: 1720px;
+  }
+
+  .oh-three {
+    top: 2650px;
+  }
+
+  .whereyou {
+    top: 2730px;
+  }
+}
+
+@media (max-width: 380px) {
+  .vertical {
+    margin-left: 190px;
+  }
+
+  h1 {
+    font-size: 34px;
+    width: 255px;
+  }
+
+  .hiking {
+    width: 265px;
+    font-size: 13px;
+  }
+
+  .question {
+    width: 350px;
+  }
+
+  .oh-two {
+    top: 1650px;
+    right: 170px;
+  }
+
+  .hikingessentials {
+    top: 1730px;
+    right: 10px;
+  }
+
+  .second-sec h2 {
+    padding-left: 10px;
+    padding-right: 30px;
+    width: 350px;
+  }
+
+  .sub-article-one,
+  .sub-article-two {
+    padding-left: 20px;
+    padding-right: 0px;
+    width: 340px;
+  }
+
+  .oh-three {
+    top: 2680px;
+  }
+
+  .whereyou {
+    top: 2760px;
+    left: 0px;
+  }
+
+  .copy {
+    top: 4230px;
+  }
+
+  .dfg p {
+    font-size: 9.5px;
+  }
+}
+
+@media (max-width: 360px) {
+  .oh-three {
+    top: 2650px;
+  }
+
+  .whereyou {
+    top: 2720px;
+    left: 0px;
+  }
+}
+
+@media (max-width: 350px) {
+  .header .logo {
+    padding: 56px 10px;
+    letter-spacing: 6.5px;
+    font-size: 35px;
+    line-height: 46.66px;
+    display: block;
+    float: left;
+  }
+
+  .first-sec #one {
+    width: 100%;
+  }
+
+  .header .menu-icon .navicon {
+    height: 2px;
+    width: 25px;
+    margin-top: 55px;
+  }
+
+  .header .menu-icon .navicon {
+    margin-right: 13px;
+  }
+
+  .header .menu-icon .navicon:before {
+    top: 9px;
+    height: 2px;
+  }
+
+  .header .menu-icon .navicon:after {
+    top: -8.5px;
+    height: 2px;
+  }
+
+  .header .menu-btn:checked ~ .logo {
+    padding: 41px 25px;
+  }
+
+  .header .menu-btn:checked ~ .menu-icon {
+    padding: 12px 25px;
+  }
+
+  .header .menu-btn:checked ~ .div {
+    height: 160px;
+  }
+
+  .header .menu {
+    clear: both;
+    max-height: 0;
+    transition: max-height 0s ease-out;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -43px;
+  }
+
+  .header li a {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+  }
+
+  .equipment {
+    padding-top: 16px;
+    grid-column: 1/2;
+  }
+
+  .aboutUs {
+    padding-top: 9px;
+    grid-column: 1/2;
+    padding-left: 6.5px;
+  }
+
+  .blog {
+    padding-top: 5px;
+    grid-column: 1/2;
+  }
+
+  .career {
+    grid-column: 1/2;
+    grid-row: 5/6;
+    padding-left: 0px;
+    z-index: 1;
+    margin-bottom: 12px;
+  }
+
+  .career a {
+    letter-spacing: -0.5px;
+  }
+
+  .career img {
+    margin-right: 4px;
+    margin-left: 2px;
+    margin-bottom: -5px;
+  }
+
+  h1 {
+    margin-bottom: 100px;
+    max-width: 250px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+  }
+
+  .hiking {
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+
+  .span,
+  .appeal .span {
+    margin-right: 5px;
+    height: 1px;
+    margin-bottom: 4px;
+    width: 40px;
+  }
+
+  .hiking,
+  h1 {
+    width: 230px;
+  }
+
+  .appeal {
+    margin-left: 10px;
+  }
+
+  .appeal span {
+    height: 1px;
+  }
+
+  .after-nav {
+    display: flex;
+    margin-top: 54px;
+  }
+
+  .vertical {
+    margin-top: -44px;
+    margin-left: 160px;
+  }
+
+  .vertical p {
+    font-weight: 600;
+  }
+
+  .arrow p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+  }
+
+  .arrow img {
+    margin-left: 24px;
+    width: 12px;
+    height: 20px;
+    margin-top: 4px;
+  }
+
+  .oh-one {
+    top: 597px;
+    left: 9px;
+    font-size: 100px;
+    line-height: 90px;
+  }
+
+  .getstarted {
+    top: 637.5px;
+    left: 10px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .first-sec .span {
+    margin-right: 17px;
+    width: 45px;
+    margin-bottom: 2px;
+  }
+
+  .container1 {
+    padding: 145px 0px 0 0px;
+  }
+
+  .question {
+    width: 300px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    height: 80px;
+    margin-left: 10px;
+  }
+
+  .hkr {
+    margin-left: 4px;
+  }
+
+  .are {
+    margin-left: -10px;
+  }
+
+  .you {
+    margin-left: 0px;
+  }
+
+  .article {
+    margin-top: 0px;
+    padding-left: 9px;
+    padding-right: 10px;
+    font-weight: 400;
+    line-height: 32px;
+  }
+
+  .arrow1 {
+    padding-left: 10px;
+  }
+
+  .readmore {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-left: 0px;
+  }
+
+  #mvng-right,
+  .arroww #mvng-right {
+    width: 20px;
+    height: 12px;
+    margin-left: 25px;
+    margin-bottom: -4px;
+  }
+
+  .frst-pic {
+    margin-top: 30px;
+  }
+
+  .oh-two {
+    top: 1606px;
+    right: 188px;
+    font-size: 100px;
+    line-height: 90px;
+  }
+
+  .hikingessentials {
+    top: 1649px;
+    right: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+  }
+
+  .second-sec .span,
+  .third-sec .span {
+    width: 45px;
+    margin-right: 26px;
+    margin-bottom: 2px;
+  }
+
+  .second-sec {
+    margin: 20px 0px 0 1px;
+    width: 100%;
+  }
+
+  .second-sec h2,
+  .third-sec h2 {
+    width: 300px;
+    padding-left: 30px;
+    font-size: 24px;
+    line-height: 36px;
+    height: 100%;
+  }
+
+  .sub-article-one,
+  .sub-article-two {
+    margin-top: 28px;
+    padding-left: 30px;
+    padding-right: 0px;
+    margin-left: 0px;
+    font-weight: 400;
+    width: 300px;
+  }
+
+  .sub-article-two {
+    margin-top: 0;
+  }
+
+  .scnd-pic {
+    margin-top: 30px;
+  }
+
+  .oh-three {
+    top: 2616px;
+    left: 9px;
+    font-size: 100px;
+    line-height: 90px;
+  }
+
+  .whereyou {
+    top: 2659px;
+    left: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 3px;
+  }
+
+  .third-sec {
+    margin: 90px 0px 0 0px;
+  }
+
+  .third-sec h2 {
+    margin-bottom: 27px;
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+
+  .sub-article {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-left: 0px;
+    padding-left: 0;
+    width: 300px;
+  }
+
+  .arrowww {
+    padding-left: 2px;
+  }
+
+  .thrd-pic {
+    margin-top: 30px;
+  }
+
+  footer {
+    margin: 72px 40px 60px 5px;
+  }
+
+  .dfg p {
+    width: 300px;
+    padding-top: 4px;
+    font-size: 12px;
+  }
+
+  .f2 {
+    margin-top: 26px;
+  }
+
+  .f2 .more,
+  .f4 .more {
+    margin-bottom: 19px;
+  }
+
+  .f2 li {
+    margin-left: 1px;
+    line-height: 43px;
+  }
+
+  .f4 .more {
+    margin-bottom: 14px;
+  }
+
+  .f4 li {
+    line-height: 38px;
+  }
+
+  .copy {
+    top: 4249px;
+    left: 7px;
+  }
+
+  .hiking {
+    width: 230px;
+  }
+
+  .jump {
+    border-right: solid 2.5px;
+    height: 144px;
+    border-image: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0.324) 75%,
+      rgb(255, 255, 255) 25%
+    );
+    border-image-slice: 1;
+    margin-top: 137px;
+    margin-right: 15px;
+  }
+
+  .jump p {
+    margin: 0 14px 23px 0;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+
+  .followUs {
+    display: flex;
+    transform: rotate(90deg);
+    margin-right: -80px;
+    margin-bottom: -82px;
+  }
+
+  .followUs img {
+    object-fit: none;
+    margin-left: 10px;
+    margin-right: 5px;
+  }
+
+  .followUs a {
+    width: 82px;
+  }
+}
+
+@media (min-width: 1921px) {
+  body {
+    background: url(./images/BG\ 1.jpg) top left/2132px 1900px no-repeat,
+      #0b1d27;
+  }
+
+  .oh-one {
+    top: 1300px;
+  }
+
+  .getstarted {
+    top: 1500px;
+  }
+
+  .oh-two {
+    top: 2200px;
+  }
+
+  .hikingessentials {
+    top: 2400px;
+  }
+
+  .whereyou {
+    top: 3300px;
+  }
+
+  .oh-three {
+    top: 3100px;
+  }
+}
